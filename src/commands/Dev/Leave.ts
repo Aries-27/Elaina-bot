@@ -27,6 +27,6 @@ export default class Command extends BaseCommand {
                     undefined
                     ).catch((reason: any) =>
                     M.reply(`✖ An error occurred. Please try again later.`))
-        await this.client.groupLeave(M.from).catch(() => M.reply('Failed to leave the Group'))
+        await this.client.groupLeave(M.from).catch(() => M.reply('Failed to leave the Group')
     }
 }
