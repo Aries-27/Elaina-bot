@@ -95,7 +95,7 @@ export default class MessageHandler {
 			)}`
 		   );
 			if (!command)
-			return void M.reply( await request.buffer(`https://c.tenor.com/Lu60IPsXTZsAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4`),
+			return void M.reply( await request.buffer(`https://c.tenor.com/uRuAy_M2WVcAAAPo/kawaii-anemone.mp4`),
                     MessageType.video,
                     Mimetype.gif,
                     undefined,
